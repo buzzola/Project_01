@@ -4,16 +4,12 @@ public class Calculator {
 	
 	
 	//p1. = bloco 1
-	public double p1a;
-	public double p1b;
-	public double p1c;
-
-	
+	public double p1a, p1b, p1c;
+	public double p1all = p1a + p1b + p1c;
 	//p2. = bloco 2
-	public double p2a;
-	public double p2b;
-	public double p2c;
-	
+	public double p2a, p2b, p2c;
+	public double p2all = p2a + p2b + p2c;
+
 	
 	//Calcula o valor do bloco p1.
 	public double calculatorP1() {
@@ -45,7 +41,5 @@ public class Calculator {
 		
 	}
 	
-
 	
-
 } // final

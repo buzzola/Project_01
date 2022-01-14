@@ -18,32 +18,34 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		Calculator calculator = new Calculator();
 		
-		System.out.println("Digite o primeiro numero do P1");
+		System.out.println("Digite o primeiro numero do bloco 1");
 		calculator.p1a = sc.nextDouble();
 		
-		System.out.println("Digite o segundo numero do P1");
+		System.out.println("Digite o segundo numero do bloco 1");
 		calculator.p1b = sc.nextDouble();
 		
-		System.out.println("Digite o terceiro numero do P1");
+		System.out.println("Digite o terceiro numero do bloco 1");
 		calculator.p1c = sc.nextDouble();
 		
+		System.out.println("Agora insira os dados do bloco 2");
 		
 		//Pega os dados do P2.
 		calculator.p2a = sc.nextDouble();
-		System.out.println("Digite o primeiro numero do P2");
+		System.out.println("Digite o primeiro numero do bloco 2");
 		
 		calculator.p2b = sc.nextDouble();
-		System.out.println("Digite o segundo numero do P2");
+		System.out.println("Digite o segundo numero do bloco 2");
 		
 		calculator.p2c = sc.nextDouble();
-		System.out.println("Digite o terceiro numero do P2");
+		System.out.println("Digite o terceiro numero do bloco 2");
 		sc.close();
 		
 		
-		//Printa o valor do bloco 1 e bloco 2 e diz qual foi maior.
-			
+		//Printa qual bloco teve a soma maior
 		calculator.howBigger();
-		
+		System.out.println("BLOCO 1: "+ calculator.calculatorP1());
+		System.out.println("BLOCO 2: "+ calculator.calculatorP2());
+
 		
 		
 		
